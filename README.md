@@ -11,6 +11,7 @@ pip install -r requirements.txt
 ```
 
 **2. Prepare dataset**
+
 The data structure of LEVIR-CC is organized as follows:
 
 ```bash
@@ -26,4 +27,17 @@ The data structure of LEVIR-CC is organized as follows:
              ├─test
              │  ├─A
              │  ├─B
+```
+Then extract the text files for each pair of image change descriptions in LEVIR-CC：
+
+```bash
+python preprocess_data.py
+```
+
+### Training
+
+Ensure that the data preparation steps above are completed before proceeding to train the model：
+
+```bash
+python train.py
 ```
