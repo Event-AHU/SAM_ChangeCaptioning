@@ -41,3 +41,10 @@ Ensure that the data preparation steps above are completed before proceeding to 
 ```bash
 python train.py
 ```
+
+### Testing 
+
+Please run the following command：
+```bash
+python test.py
+```
