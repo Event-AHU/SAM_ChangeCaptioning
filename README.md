@@ -27,18 +27,9 @@ The data structure of LEVIR-CC is organized as follows:
              ├─test
              │  ├─A
              │  ├─B
-             ├─fine_features_trainA1
-             ├─fine_features_trainB1
-             ├─fine_features_valA2
-             ├─fine_features_valB2
-             ├─fine_features_testA3
-             ├─fine_features_testB3
-             ├─semantic_trainA
-             ├─semantic_trainB
-             ├─semantic_valA
-             ├─semantic_valB
-             ├─semantic_testA
-             ├─semantic_testB
+             ├─fine_features
+             ├─semantic_features
+
 ```
 Then extract the text files for each pair of image change descriptions in LEVIR-CC：
 
@@ -63,7 +54,11 @@ python test.py
 
 ### Note: The complete execution code and weights will be uploaded later. The process includes the following steps:
 Step 1: Use the modified SAM to extract motion-level features of the ROI.
+
 Step 2: Use SAM combined with GroundingDINO to extract semantic-level features of the ROI.
+
 Step 3: Feature processing.
+
 Step 4: Graph extraction.
+
 Step 5: Graph information encoding.
