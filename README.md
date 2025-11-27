@@ -71,3 +71,19 @@ Step 3: Feature processing.
 Step 4: Graph extraction.
 
 Step 5: Graph information encoding.
+
+
+### Citation 
+```
+@misc{wang2025samChangeCap,
+      title={SAM Guided Semantic and Motion Changed Region Mining for Remote Sensing Change Captioning}, 
+      author={Futian Wang and Mengqi Wang and Xiao Wang and Haowen Wang and Jin Tang},
+      year={2025},
+      eprint={2511.21420},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.21420}, 
+}
+```
+
+
