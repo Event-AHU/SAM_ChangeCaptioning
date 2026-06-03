@@ -1,6 +1,6 @@
 # SAM_ChangeCaptioning
 
-SAM Guided Semantic and Motion Changed Region Mining for Remote Sensing Change Captioning, 
+**SAM Guided Semantic and Motion Changed Region Mining for Remote Sensing Change Captioning**, 
 Futian Wang, Mengqi Wang, Xiao Wang*, Haowen Wang, Jin Tang, arXiv:2511.21420 
 
 
